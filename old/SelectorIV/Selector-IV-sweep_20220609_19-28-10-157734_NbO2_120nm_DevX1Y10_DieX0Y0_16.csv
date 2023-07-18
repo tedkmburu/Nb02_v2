@@ -1,0 +1,256 @@
+TestParameter ,Measurement.Type ,Selector-IV-sweep
+TestParameter ,MainFrame
+TestParameter ,Channel.Type ,SMU ,SMU
+TestParameter ,Channel.Unit ,SMU2:MP ,SMU1:MP
+TestParameter ,Channel.IName ,I1 ,I2
+TestParameter ,Channel.VName ,V1 ,V2
+TestParameter ,Channel.Mode ,V ,V
+TestParameter ,Channel.Func ,VAR1 ,CONST
+TestParameter ,Channel.Value ,- ,  0.000000
+TestParameter ,Channel.Index , ,
+TestParameter ,Channel.Time , ,
+TestParameter ,Measurement.Port.SeriesResistance ,ON ,ON
+TestParameter ,Measurement.Port.Filter ,0 ,0
+TestParameter ,hold ,0.000000
+TestParameter ,delay ,0.000000
+TestParameter ,Measurement.Primary.Locus ,Double
+TestParameter ,Measurement.Primary.Scale ,Linear
+TestParameter ,Measurement.Primary.Start ,0.000000
+TestParameter ,Measurement.Primary.Stop ,4.000000
+TestParameter ,Measurement.Primary.Step ,101.000000
+TestParameter ,Measurement.Primary.Compliance ,0.001
+TestParameter ,Measurement.Primary.PowerCompliance ,0
+TestParameter ,Measurement.Aborting.Condition ,CONTINUE  AT  ANY
+TestParameter ,Measurement.PostOutput.Value ,  START
+TestParameter ,Measurement.Bias.Source ,0.000000 ,0.000000
+TestParameter ,Measurement.Bias.Compliance ,0.001000 ,0.010000
+TestParameter ,Measurement.Unit ,SMU2:MP ,SMU1:MP
+TestParameter ,Measurement.Adc ,HS  ADC ,HS  ADC
+TestParameter ,Measurement.Measurement ,ERROR:  NOT  FOUND ,ERROR:  NOT  FOUND
+TestParameter ,Measurement.RangingMode ,AUTO ,AUTO
+TestParameter ,Measurement.RangeBoundary ,AUTO ,AUTO
+TestParameter ,Timing.Hold ,  0.000000
+TestParameter ,Timing.Delay ,  0.000000
+TestParameter ,Timing.StepDelay ,
+TestParameter ,Timing.StepSourceTriggerDelay ,
+TestParameter ,Timing.StepMeasurementTriggerDelay ,
+TestParameter ,Measurement.Adc.HighSpeed.Mode ,AUTO
+TestParameter ,Measurement.Adc.HighSpeed.Coeff ,  1
+TestParameter ,Measurement.Adc.HighResolution.AutoZero ,  ON
+TestParameter ,Measurement.Adc.HighResolution.Mode ,AUTO
+TestParameter ,Measurement.Adc.HighResolution.Coeff ,  6
+Measurement ,Device ,NbO2_120nm
+Measurement ,Time ,2022-06-09_19-27-01
+Measurement ,  VlowMeas ,  0.5
+Measurement ,  VlowMeasReal ,  0.52
+Measurement ,  Repetition ,  16
+Measurement ,  Rhigh ,  3.999800e+03
+Measurement ,  Rlow1 ,  2.299867e+05
+Measurement ,  Rlow2 ,  2.315227e+05
+Measurement ,  Vth1 ,  1
+Measurement ,  Vth2 ,  2
+DataName ,  V1 ,  I1 ,  R1 ,  I2
+Units ,  V ,  A ,  ohm ,  A
+Dimension ,  202 ,  202 ,  202 ,  202
+DataValue ,  0.000000e+00 ,  5.795000e-11 ,  -6.210000e-11
+DataValue ,  4.000000e-02 ,  1.403000e-07 ,  -1.403000e-07
+DataValue ,  8.000000e-02 ,  2.817000e-07 ,  -2.819500e-07
+DataValue ,  1.200000e-01 ,  4.273000e-07 ,  -4.273500e-07
+DataValue ,  1.600000e-01 ,  5.764500e-07 ,  -5.759500e-07
+DataValue ,  2.000000e-01 ,  7.297500e-07 ,  -7.299500e-07
+DataValue ,  2.400000e-01 ,  8.894500e-07 ,  -8.904000e-07
+DataValue ,  2.800000e-01 ,  1.057100e-06 ,  -1.059850e-06
+DataValue ,  3.200000e-01 ,  1.237000e-06 ,  -1.237000e-06
+DataValue ,  3.600000e-01 ,  1.423000e-06 ,  -1.422000e-06
+DataValue ,  4.000000e-01 ,  1.612500e-06 ,  -1.614500e-06
+DataValue ,  4.400000e-01 ,  1.820500e-06 ,  -1.819500e-06
+DataValue ,  4.800000e-01 ,  2.034000e-06 ,  -2.032000e-06
+DataValue ,  5.200000e-01 ,  2.261000e-06 ,  -2.260000e-06
+DataValue ,  5.600000e-01 ,  2.498000e-06 ,  -2.498000e-06
+DataValue ,  6.000000e-01 ,  2.749000e-06 ,  -2.746500e-06
+DataValue ,  6.400000e-01 ,  3.012000e-06 ,  -3.012000e-06
+DataValue ,  6.800000e-01 ,  3.293500e-06 ,  -3.286000e-06
+DataValue ,  7.200000e-01 ,  3.582000e-06 ,  -3.582000e-06
+DataValue ,  7.600000e-01 ,  3.892000e-06 ,  -3.885000e-06
+DataValue ,  8.000000e-01 ,  4.218000e-06 ,  -4.220000e-06
+DataValue ,  8.400000e-01 ,  4.565500e-06 ,  -4.564000e-06
+DataValue ,  8.800000e-01 ,  4.931500e-06 ,  -4.933000e-06
+DataValue ,  9.200000e-01 ,  5.308000e-06 ,  -5.306000e-06
+DataValue ,  9.600000e-01 ,  5.722000e-06 ,  -5.717500e-06
+DataValue ,  1.000000e+00 ,  6.149500e-06 ,  -6.151000e-06
+DataValue ,  1.040000e+00 ,  6.607000e-06 ,  -6.610000e-06
+DataValue ,  1.080000e+00 ,  7.097000e-06 ,  -7.095000e-06
+DataValue ,  1.120000e+00 ,  7.589500e-06 ,  -7.598500e-06
+DataValue ,  1.160000e+00 ,  8.138500e-06 ,  -8.138000e-06
+DataValue ,  1.200000e+00 ,  8.700500e-06 ,  -8.701500e-06
+DataValue ,  1.240000e+00 ,  9.316500e-06 ,  -9.325500e-06
+DataValue ,  1.280000e+00 ,  9.982000e-06 ,  -9.990500e-06
+DataValue ,  1.320000e+00 ,  1.067450e-05 ,  -1.066800e-05
+DataValue ,  1.360000e+00 ,  1.142050e-05 ,  -1.141250e-05
+DataValue ,  1.400000e+00 ,  1.223000e-05 ,  -1.221000e-05
+DataValue ,  1.440000e+00 ,  1.306000e-05 ,  -1.306500e-05
+DataValue ,  1.480000e+00 ,  1.396500e-05 ,  -1.397000e-05
+DataValue ,  1.520000e+00 ,  1.495500e-05 ,  -1.495500e-05
+DataValue ,  1.560000e+00 ,  1.604000e-05 ,  -1.603500e-05
+DataValue ,  1.600000e+00 ,  1.720500e-05 ,  -1.719500e-05
+DataValue ,  1.640000e+00 ,  1.849000e-05 ,  -1.848500e-05
+DataValue ,  1.680000e+00 ,  1.984500e-05 ,  -1.987000e-05
+DataValue ,  1.720000e+00 ,  2.137000e-05 ,  -2.136000e-05
+DataValue ,  1.760000e+00 ,  2.301500e-05 ,  -2.304000e-05
+DataValue ,  1.800000e+00 ,  2.487000e-05 ,  -2.486000e-05
+DataValue ,  1.840000e+00 ,  2.700500e-05 ,  -2.696000e-05
+DataValue ,  1.880000e+00 ,  2.942000e-05 ,  -2.941000e-05
+DataValue ,  1.920000e+00 ,  3.204000e-05 ,  -3.208500e-05
+DataValue ,  1.960000e+00 ,  3.526500e-05 ,  -3.527000e-05
+DataValue ,  2.000000e+00 ,  3.924000e-05 ,  -3.925000e-05
+DataValue ,  2.040000e+00 ,  4.403500e-05 ,  -4.408000e-05
+DataValue ,  2.080000e+00 ,  5.051500e-05 ,  -5.075500e-05
+DataValue ,  2.120000e+00 ,  6.159500e-05 ,  -6.145500e-05
+DataValue ,  2.160000e+00 ,  9.803500e-04 ,  -3.265000e-04
+DataValue ,  2.200000e+00 ,  1.173800e-03 ,  -2.455000e-04
+DataValue ,  2.240000e+00 ,  1.062950e-03 ,  -1.177000e-03
+DataValue ,  2.280000e+00 ,  9.780000e-04 ,  -2.053500e-03
+DataValue ,  2.320000e+00 ,  1.077250e-03 ,  -1.336000e-03
+DataValue ,  2.360000e+00 ,  9.402000e-04 ,  -1.323500e-03
+DataValue ,  2.400000e+00 ,  1.008950e-03 ,  -1.533500e-03
+DataValue ,  2.440000e+00 ,  8.590500e-04 ,  -5.100000e-04
+DataValue ,  2.480000e+00 ,  1.185000e-03 ,  -1.000500e-03
+DataValue ,  2.520000e+00 ,  1.000150e-03 ,  -9.999500e-04
+DataValue ,  2.560000e+00 ,  1.000050e-03 ,  -1.000000e-03
+DataValue ,  2.600000e+00 ,  1.000200e-03 ,  -1.000150e-03
+DataValue ,  2.640000e+00 ,  1.000050e-03 ,  -1.000000e-03
+DataValue ,  2.680000e+00 ,  1.000100e-03 ,  -1.000200e-03
+DataValue ,  2.720000e+00 ,  1.000150e-03 ,  -1.000200e-03
+DataValue ,  2.760000e+00 ,  1.000100e-03 ,  -1.000150e-03
+DataValue ,  2.800000e+00 ,  1.000000e-03 ,  -1.000250e-03
+DataValue ,  2.840000e+00 ,  1.000150e-03 ,  -1.000100e-03
+DataValue ,  2.880000e+00 ,  1.000050e-03 ,  -1.000200e-03
+DataValue ,  2.920000e+00 ,  1.000150e-03 ,  -1.000050e-03
+DataValue ,  2.960000e+00 ,  1.000000e-03 ,  -1.000100e-03
+DataValue ,  3.000000e+00 ,  9.432500e-04 ,  -1.240000e-03
+DataValue ,  3.040000e+00 ,  1.057250e-03 ,  -1.320500e-03
+DataValue ,  3.080000e+00 ,  9.966500e-04 ,  -1.000000e-03
+DataValue ,  3.120000e+00 ,  1.000100e-03 ,  -1.000000e-03
+DataValue ,  3.160000e+00 ,  1.000100e-03 ,  -1.000100e-03
+DataValue ,  3.200000e+00 ,  1.000050e-03 ,  -1.000150e-03
+DataValue ,  3.240000e+00 ,  1.000050e-03 ,  -1.000050e-03
+DataValue ,  3.280000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  3.320000e+00 ,  1.000150e-03 ,  -1.000050e-03
+DataValue ,  3.360000e+00 ,  1.000100e-03 ,  -1.000050e-03
+DataValue ,  3.400000e+00 ,  9.999500e-04 ,  -1.000050e-03
+DataValue ,  3.440000e+00 ,  1.000200e-03 ,  -1.000150e-03
+DataValue ,  3.480000e+00 ,  1.000050e-03 ,  -1.000000e-03
+DataValue ,  3.520000e+00 ,  1.000050e-03 ,  -1.000000e-03
+DataValue ,  3.560000e+00 ,  1.000000e-03 ,  -1.000050e-03
+DataValue ,  3.600000e+00 ,  1.000050e-03 ,  -9.999000e-04
+DataValue ,  3.640000e+00 ,  1.000150e-03 ,  -1.000050e-03
+DataValue ,  3.680000e+00 ,  1.000050e-03 ,  -1.000200e-03
+DataValue ,  3.720000e+00 ,  1.000050e-03 ,  -1.000050e-03
+DataValue ,  3.760000e+00 ,  1.000150e-03 ,  -1.000250e-03
+DataValue ,  3.800000e+00 ,  1.000100e-03 ,  -1.000100e-03
+DataValue ,  3.840000e+00 ,  1.000100e-03 ,  -1.000250e-03
+DataValue ,  3.880000e+00 ,  1.000200e-03 ,  -9.999500e-04
+DataValue ,  3.920000e+00 ,  1.000050e-03 ,  -1.000150e-03
+DataValue ,  3.960000e+00 ,  1.000100e-03 ,  -1.000250e-03
+DataValue ,  4.000000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  4.000000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  3.960000e+00 ,  1.000150e-03 ,  -1.000050e-03
+DataValue ,  3.920000e+00 ,  8.400500e-04 ,  -5.675000e-04
+DataValue ,  3.880000e+00 ,  9.007000e-04 ,  -1.475000e-03
+DataValue ,  3.840000e+00 ,  1.003450e-03 ,  -2.360000e-04
+DataValue ,  3.800000e+00 ,  9.244000e-04 ,  -1.000500e-03
+DataValue ,  3.760000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  3.720000e+00 ,  1.000000e-03 ,  -1.000100e-03
+DataValue ,  3.680000e+00 ,  1.000000e-03 ,  -1.000100e-03
+DataValue ,  3.640000e+00 ,  1.000050e-03 ,  -1.000000e-03
+DataValue ,  3.600000e+00 ,  1.000100e-03 ,  -1.000250e-03
+DataValue ,  3.560000e+00 ,  1.000100e-03 ,  -1.000000e-03
+DataValue ,  3.520000e+00 ,  1.000150e-03 ,  -1.000100e-03
+DataValue ,  3.480000e+00 ,  1.000200e-03 ,  -1.000100e-03
+DataValue ,  3.440000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  3.400000e+00 ,  1.000100e-03 ,  -1.000100e-03
+DataValue ,  3.360000e+00 ,  1.000100e-03 ,  -1.000000e-03
+DataValue ,  3.320000e+00 ,  1.000200e-03 ,  -1.000100e-03
+DataValue ,  3.280000e+00 ,  1.000050e-03 ,  -1.000200e-03
+DataValue ,  3.240000e+00 ,  1.000000e-03 ,  -1.000050e-03
+DataValue ,  3.200000e+00 ,  1.000050e-03 ,  -1.000050e-03
+DataValue ,  3.160000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  3.120000e+00 ,  1.000100e-03 ,  -1.000100e-03
+DataValue ,  3.080000e+00 ,  1.000200e-03 ,  -1.000200e-03
+DataValue ,  3.040000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  3.000000e+00 ,  1.000200e-03 ,  -1.000100e-03
+DataValue ,  2.960000e+00 ,  1.000100e-03 ,  -1.000050e-03
+DataValue ,  2.920000e+00 ,  1.000100e-03 ,  -1.000050e-03
+DataValue ,  2.880000e+00 ,  1.000150e-03 ,  -1.000000e-03
+DataValue ,  2.840000e+00 ,  1.000050e-03 ,  -1.000200e-03
+DataValue ,  2.800000e+00 ,  1.000050e-03 ,  -1.000050e-03
+DataValue ,  2.760000e+00 ,  1.000050e-03 ,  -1.000100e-03
+DataValue ,  2.720000e+00 ,  1.000150e-03 ,  -1.000000e-03
+DataValue ,  2.680000e+00 ,  1.000050e-03 ,  -1.000100e-03
+DataValue ,  2.640000e+00 ,  1.000150e-03 ,  -1.000200e-03
+DataValue ,  2.600000e+00 ,  1.000150e-03 ,  -1.000100e-03
+DataValue ,  2.560000e+00 ,  1.000150e-03 ,  -9.999500e-04
+DataValue ,  2.520000e+00 ,  1.000050e-03 ,  -1.000050e-03
+DataValue ,  2.480000e+00 ,  9.999000e-04 ,  -1.000000e-03
+DataValue ,  2.440000e+00 ,  1.000050e-03 ,  -1.000100e-03
+DataValue ,  2.400000e+00 ,  1.000200e-03 ,  -1.000000e-03
+DataValue ,  2.360000e+00 ,  1.000200e-03 ,  -9.998500e-04
+DataValue ,  2.320000e+00 ,  1.000200e-03 ,  -1.000000e-03
+DataValue ,  2.280000e+00 ,  1.000150e-03 ,  -9.999000e-04
+DataValue ,  2.240000e+00 ,  1.000150e-03 ,  -9.998000e-04
+DataValue ,  2.200000e+00 ,  1.000100e-03 ,  -1.000050e-03
+DataValue ,  2.160000e+00 ,  1.000200e-03 ,  -1.000000e-03
+DataValue ,  2.120000e+00 ,  1.000150e-03 ,  -1.000050e-03
+DataValue ,  2.080000e+00 ,  1.000150e-03 ,  -1.000000e-03
+DataValue ,  2.040000e+00 ,  1.000050e-03 ,  -1.000000e-03
+DataValue ,  2.000000e+00 ,  1.000200e-03 ,  -1.000100e-03
+DataValue ,  1.960000e+00 ,  1.000050e-03 ,  -1.000200e-03
+DataValue ,  1.920000e+00 ,  9.999500e-04 ,  -1.000200e-03
+DataValue ,  1.880000e+00 ,  1.000100e-03 ,  -9.998000e-04
+DataValue ,  1.840000e+00 ,  1.000050e-03 ,  -1.000150e-03
+DataValue ,  1.800000e+00 ,  1.000150e-03 ,  -1.000100e-03
+DataValue ,  1.760000e+00 ,  1.000100e-03 ,  -1.000250e-03
+DataValue ,  1.720000e+00 ,  1.000250e-03 ,  -9.999500e-04
+DataValue ,  1.680000e+00 ,  1.000200e-03 ,  -1.000000e-03
+DataValue ,  1.640000e+00 ,  1.000200e-03 ,  -1.000050e-03
+DataValue ,  1.600000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  1.560000e+00 ,  1.000100e-03 ,  -1.000050e-03
+DataValue ,  1.520000e+00 ,  1.000150e-03 ,  -1.000150e-03
+DataValue ,  1.480000e+00 ,  1.000100e-03 ,  -1.000100e-03
+DataValue ,  1.440000e+00 ,  1.000050e-03 ,  -9.999500e-04
+DataValue ,  1.400000e+00 ,  1.000050e-03 ,  -1.000100e-03
+DataValue ,  1.360000e+00 ,  1.000150e-03 ,  -1.000350e-03
+DataValue ,  1.320000e+00 ,  1.000100e-03 ,  -1.000200e-03
+DataValue ,  1.280000e+00 ,  9.920000e-06 ,  -9.931500e-06
+DataValue ,  1.240000e+00 ,  9.271000e-06 ,  -9.276000e-06
+DataValue ,  1.200000e+00 ,  8.672000e-06 ,  -8.665500e-06
+DataValue ,  1.160000e+00 ,  8.080000e-06 ,  -8.078500e-06
+DataValue ,  1.120000e+00 ,  7.554500e-06 ,  -7.546500e-06
+DataValue ,  1.080000e+00 ,  7.038500e-06 ,  -7.039500e-06
+DataValue ,  1.040000e+00 ,  6.559000e-06 ,  -6.558500e-06
+DataValue ,  1.000000e+00 ,  6.109500e-06 ,  -6.106000e-06
+DataValue ,  9.600000e-01 ,  5.684000e-06 ,  -5.681000e-06
+DataValue ,  9.200000e-01 ,  5.268500e-06 ,  -5.272500e-06
+DataValue ,  8.800000e-01 ,  4.893000e-06 ,  -4.893000e-06
+DataValue ,  8.400000e-01 ,  4.529500e-06 ,  -4.532000e-06
+DataValue ,  8.000000e-01 ,  4.190500e-06 ,  -4.186000e-06
+DataValue ,  7.600000e-01 ,  3.868500e-06 ,  -3.866000e-06
+DataValue ,  7.200000e-01 ,  3.560500e-06 ,  -3.561000e-06
+DataValue ,  6.800000e-01 ,  3.268000e-06 ,  -3.266500e-06
+DataValue ,  6.400000e-01 ,  2.994500e-06 ,  -2.994500e-06
+DataValue ,  6.000000e-01 ,  2.731000e-06 ,  -2.730500e-06
+DataValue ,  5.600000e-01 ,  2.482500e-06 ,  -2.484500e-06
+DataValue ,  5.200000e-01 ,  2.246000e-06 ,  -2.246000e-06
+DataValue ,  4.800000e-01 ,  2.019500e-06 ,  -2.019500e-06
+DataValue ,  4.400000e-01 ,  1.807500e-06 ,  -1.808000e-06
+DataValue ,  4.000000e-01 ,  1.607500e-06 ,  -1.605000e-06
+DataValue ,  3.600000e-01 ,  1.413500e-06 ,  -1.411500e-06
+DataValue ,  3.200000e-01 ,  1.229000e-06 ,  -1.228000e-06
+DataValue ,  2.800000e-01 ,  1.054500e-06 ,  -1.053500e-06
+DataValue ,  2.400000e-01 ,  8.867500e-07 ,  -8.867500e-07
+DataValue ,  2.000000e-01 ,  7.270500e-07 ,  -7.272000e-07
+DataValue ,  1.600000e-01 ,  5.734500e-07 ,  -5.737000e-07
+DataValue ,  1.200000e-01 ,  4.262500e-07 ,  -4.260000e-07
+DataValue ,  8.000000e-02 ,  2.807000e-07 ,  -2.807500e-07
+DataValue ,  4.000000e-02 ,  1.397500e-07 ,  -1.397000e-07
+DataValue ,  0.000000e+00 ,  -3.150000e-12 ,  -6.740000e-11
